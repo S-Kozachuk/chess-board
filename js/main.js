@@ -53,11 +53,17 @@ function reverse (num) {
 console.log(reverse(11));
 */
 
-function isEven(n) {
-	return n % 3;
+// Проверка чисел на чётность и не чётность через цикл For
+/*
+for (let i = 0; i <= 12; i++) {
+	if (i % 2 == 0 && i != 0) {
+		console.log('Чётное число:' + `${i}`)
+	}
+	else {
+		console.log('Нечётное число:' + `${i}`)
+	}
 }
-
-console.log(isEven(17))
+*/
 
 /* 
 Для тогго что бы чередовать выаод двух раных знаков
