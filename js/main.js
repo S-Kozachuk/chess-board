@@ -36,16 +36,14 @@ for (let i = 1; i <= 8; i++) {
 	//console.log (string);
 	// Вывод результата в DOM через метод innerHTML
 	output.innerHTML = string;
+	//newElement.innerHTML = string;
 	// Вывод результата в объект document (html - страница)
 	//document.write(string + '<br/>');
 	/* 
 	Обнуление значения переменной после каждой внешней итерации (очистка строки).
 	Только для вывода в консоль?
 	*/
-	string = '';
-	
-
-	
+	//string = '';
 }
 
 	/*
