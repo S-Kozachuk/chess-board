@@ -1,4 +1,10 @@
 h1 {
 	font-size: 35px;
 	font-weight: 400;
+	text-align: center;
+}
+
+.output {
+	display: grid;
+	justify-content: center;
 }
