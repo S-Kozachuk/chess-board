@@ -4,9 +4,9 @@ let markTwo = "#"; // "нечётный" символ
 let string = ''; // пустая строка
 
 // Creating string (main cycle)
-for (let i = 1; i <= 8; i++) {
+for (let i = 1; i <= 20; i++) {
 	// Creating column
-	for (let b = 1; b <= 8; b++) {
+	for (let b = 1; b <= 50; b++) {
 		// 
 		/*
 		Проверка числа на нечётность по модулю. Если чётное - вернёт 0 (false), нечётное - 1(true)
