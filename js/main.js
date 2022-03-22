@@ -1,4 +1,6 @@
-const output = document.querySelector('.output');
+const output = document.querySelector('.output'),
+	input = document.querySelector('.input'),			
+	inputBtn = document.querySelector('.input__btn');
 let markOne = "_"; // "чётный" символ
 let markTwo = "#"; // "нечётный" символ
 let string = ''; // пустая строка
