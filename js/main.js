@@ -5,10 +5,14 @@ let markOne = "_"; // "чётный" символ
 let markTwo = "#"; // "нечётный" символ
 let string = ''; // пустая строка
 
+
+inputBtn.addEventListener('click', () => {
+	// Запись в пер. значения, полученноого из поля ввода input
+	let inputValue = +input.value;
 // Creating string (main cycle)
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= inputValue; i++) {
 	// Creating column
-	for (let b = 1; b <= 50; b++) {
+	for (let b = 1; b <= inputValue; b++) {
 		// 
 		/*
 		Проверка числа на нечётность по модулю. Если чётное - вернёт 0 (false), нечётное - 1(true)
@@ -44,6 +48,7 @@ for (let i = 1; i <= 20; i++) {
 	string = '';
 }
 
+});
 	/*
 	let num = 19;
 	num = (num%2);
