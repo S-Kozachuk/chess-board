@@ -10,6 +10,11 @@ h1 {
 }
 
 .output {
+	margin-bottom: 35px;
 	display: grid;
 	justify-content: center;
+} 
+
+.input {
+	margin-bottom: 7px;
 }
