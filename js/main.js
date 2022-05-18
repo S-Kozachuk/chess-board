@@ -9,10 +9,10 @@ let string = ''; // пустая строка
 inputBtn.addEventListener('click', () => {
 	// Запись в пер. значения, полученноого из поля ввода input
 	let inputValue = +input.value;
-// Creating string (main cycle)
-for (let i = 1; i <= inputValue; i++) {
-	// Creating column
-	for (let b = 1; b <= inputValue; b++) {
+	// Creating string (main cycle)
+	for (let i = 1; i <= inputValue; i++) {
+		// Creating row
+		for (let b = 1; b <= inputValue; b++) {
 		// 
 		/*
 		Проверка числа на нечётность по модулю. Если чётное - вернёт 0 (false), нечётное - 1(true)
@@ -37,6 +37,7 @@ for (let i = 1; i <= inputValue; i++) {
 				string += markOne;
 			}
 		}
+			
 	};
 	// Вывод результата в консоль
 	//console.log (string);
@@ -49,50 +50,3 @@ for (let i = 1; i <= inputValue; i++) {
 }
 
 });
-	/*
-	let num = 19;
-	num = (num%2);
-	console.log (num);
-	*/
-/*
-function reverse (num) {
-	return (num % 2)
-};
-
-console.log(reverse(11));
-*/
-
-// Проверка чисел на чётность и не чётность через цикл For
-/*
-for (let i = 0; i <= 12; i++) {
-	if (i % 2 == 0 && i != 0) {
-		console.log('Чётное число:' + `${i}`)
-	}
-	else {
-		console.log('Нечётное число:' + `${i}`)
-	}
-}
-*/
-
-/* 
-Для тогго что бы чередовать выаод двух раных знаков
-после кадой итерации нужно выполнятять проверку числа
-на чётность (кратно 2 или нет).
-Если число не кратно выводится первый символ, если
-кратно выводится 2-ой символ.
-*/
-
-// Базовый вариант проверки
-/*
-if (column%2) {
-	console.log(markOne);
-}
-else {
-	console.log(markTwo);
-}
-*/
-
-// Протестировать различные варианты проверки на чётнось
-// https://rebelcode.ru/js/proverka-na-chyotnost-v-javascript/
-// https://ru.stackoverflow.com/questions/596170/Как-проверить-число-на-четность
-// https://learn.javascript.ru/task/for-even
